@@ -1,0 +1,67 @@
+body {
+    background: url("/img/2.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.reg {
+    width: 600px;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 250px auto;
+    padding: 10px 20px 30px;
+    font-size: 40px;
+    border-radius: 15px;
+
+}
+
+.reg h3 {
+    color: #7CFC00;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.reg .textlablel {
+    display: block;
+    text-transform: capitalize;
+
+
+}
+
+.input input {
+    width: 100%;
+    font-size: 1.0em;
+    border-radius: 1px solid green;
+    box-shadow: 1px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+
+
+
+}
+
+input:focus {
+    background-color: #7CFC00;
+}
+
+.btn {
+    text-align: center;
+
+}
+
+button {
+    background-color: #7CFC00;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid #006d77;
+    box-shadow: 2px;
+}
+
+.radio input {
+    accent-color: green;
+    transform: scale(1.8);
+
+}
